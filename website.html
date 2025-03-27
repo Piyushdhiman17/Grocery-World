@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery website by Piyush Dhimam</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="pr.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Grocery World </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="watermelon.jpeg" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">₹69.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="onion.jpg" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">₹44.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="chicken.jpeg" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">₹199.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : ₹314.97/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <p>Click here <a href="login page.html">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3><span>fresh and organic products</span></h3>
+        <p>Discover the finest selection of fresh and organic products at Grocery World. From farm-fresh fruits and vegetables to organic dairy, grains, and spices, we bring you high-quality, chemical-free groceries for a healthier lifestyle. Shop with confidence and enjoy the goodness of nature, delivered right to your doorstep!</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"><span> our features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="fresh and organic.jpeg" alt="">
+            <h3>fresh and organic</h3>
+            <p>Our **Fresh & Organic** section brings you the best of nature—pure, chemical-free, and farm-fresh. From organic fruits and vegetables to dairy and pantry essentials, enjoy wholesome goodness in every bite. Eat fresh, live healthy!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="fast and free delivery.webp" alt="">
+            <h3>free and fast delivery</h3>
+            <p>Enjoy **free and fast delivery** on all your orders! Get fresh and organic products delivered to your doorstep quickly and hassle-free. Shop with ease and experience convenience like never before!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="payment.jpg" alt="">
+            <h3>Payments</h3>
+            <p>We offer **secure and hassle-free payment options** for a smooth shopping experience. Choose from multiple payment methods, including credit/debit cards, UPI, net banking, and cash on delivery. Shop with confidence, knowing your transactions are safe and protected!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"><span> Our products</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="Oranges.jpg" alt="">
+                <h3>fresh orange</h3>
+                <div class="price"> ₹24.99/- ₹30.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="onion.jpg" alt="">
+                <h3> onion</h3>
+                <div class="price"> ₹14.99/- ₹20.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="chicken.jpeg" alt="">
+                <h3>fresh meat</h3>
+                <div class="price"> ₹199.99/- ₹299.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="cabbage.jpg" alt="">
+                <h3>fresh cabbage</h3>
+                <div class="price"> ₹24.99/- ₹29.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="potato.jpeg" alt="">
+                <h3>fresh potato</h3>
+                <div class="price"> ₹14.99/- ₹19.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="avacado.jpg" alt="">
+                <h3>fresh avocado</h3>
+                <div class="price"> ₹94.99/- ₹99.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="carrot.jpg" alt="">
+                <h3>fresh carrot</h3>
+                <div class="price"> ₹14.99/- ₹19.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="lemon.jpg" alt="">
+                <h3>green lemon</h3>
+                <div class="price"> ₹4.99/- ₹9.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"><span> product categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="vegetables.jpg" alt="">
+            <h3>vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="fruits.jpeg" alt="">
+            <h3>fresh fruits</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="dairy products.jpg" alt="">
+            <h3>dairy products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="chicken.jpeg" alt="">
+            <h3>fresh meat</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"><span> our blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="fruits & vegetables.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 19 November , 2023 </a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>The quality is top-notch, super fresh, and free from harmful chemicals. You can truly taste the difference in every bite. Highly recommended for a healthy lifestyle!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="fruits & vegetables.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 28 November , 2023 </a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Everything is farm-fresh, flavorful, and free from pesticides. The quality and freshness are unbeatable—definitely my go-to for healthy eating!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="fruits & vegetables.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 3rd july, 2022 </a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Everything is super fresh, naturally flavorful, and lasts longer than regular store-bought produce. Truly a great choice for a healthy lifestyle!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>  <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Welcome to Grocery World, your one-stop destination for fresh and organic groceries! We bring you high-quality, chemical-free fruits, vegetables, dairy, and pantry essentials, ensuring health and sustainability. With secure payments, free and fast delivery, and a commitment to freshness, we make healthy eating easy and convenient. Shop now and experience the best of nature at your doorstep! 🌿🍎🚀</p>
+            <div class="share">
+                <a href="https://instagram.com/nitin_ranaut" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/piyushdhiman17/" target="_blank" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +919876543210 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +919876541230 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> groceryworld1234@gmail.com </a>
+            <a href="https://goo.gl/maps/vk2Vp9m6sQMgDNJ99" target="_blank" class="links"> <i class="fas fa-map-marker-alt"></i> Jalhandhar, india - 144001 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> contact </a>
+
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="payment.jpg" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Piyush Dhiman</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="pr.jss"></script>
+
+</body>
+</html>
